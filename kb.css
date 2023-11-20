@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(run-its-daniel-v0-6sdrhnvez9ab1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+    .container {
+        width:  300px;
+        padding: 16px;
+        background-color: whitesmoke;
+        margin:  0 auto;
+        margin-top: 100px;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+
+    .container label {
+        text-align: left;
+    }
+    
+    .container input[type=text], .container input[type=password] {
+        width: 100%;
+        padding: 1%;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: rgb(10, 204, 230);
+    }dw
+
+        .container input[type=text]:focus, .container input[type=password]:focus {
+            background-color: wheat;
+            outline: none;
+        }
+
+        .container button {
+            background-color: red;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .container button:hover {
+            opacity: 5;
+        }
